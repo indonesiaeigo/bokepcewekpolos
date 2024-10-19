@@ -131,7 +131,7 @@ export default async function Video({ params }: PageProps) {
             <h2 className="text-2xl font-bold text-center my-4">
                 Related Video {file.title}
             </h2>
-            <SearchCardList query={file.title.split(" ")[2]} />
+            <SearchCardList query={file.title.split(" ")[1]} />
 <Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </div>
     );
